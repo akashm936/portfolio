@@ -1,0 +1,107 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.contactinfo{
+    width: 80vw;
+    height: auto;
+    background-color: azure;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    
+}
+
+.contactinfo h1{
+    font-size: 2rem;
+    padding: 20px;
+}
+.contact{
+    display: flex;
+    margin: auto;
+}
+
+.contact h3{
+    margin: 10px;
+    font-size: 2rem;
+}
+
+.contactinfo img{
+    width: 30px;
+   
+    /* border-radius: 50%; */
+}
+.infoContainer1{
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+
+}
+.contact h3{
+    font-size: 2rem;
+}
+
+h1{
+    font-size: 3rem;
+}
+.btn{
+    margin: auto;
+}
+
+.btn .btn-outline-primary{
+    margin: auto;
+}
+
+.follow{
+    
+    width: 80vw;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.follow img{
+    width: 70px;
+    display: flex;
+    border-radius: 50% ;
+}
+
+.fa{
+    font-size: 2rem;
+}
+
+@media(max-width: 600px){
+    .contact h3{
+        font-size: 1rem;
+        flex-direction: column;
+        margin: 0%;
+    }
+    .contact{
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        padding: 20px;
+    }
+    .contact img{
+
+        margin: 10px auto;
+        
+    }
+    .contactinfo img{
+        flex-direction: column;
+        
+    }
+    .follow img{
+        width: 30px;
+    }
+}

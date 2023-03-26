@@ -1,0 +1,79 @@
+#myintro{
+    /*background-color: #272727;*/
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 20px;
+    margin: auto;
+}
+
+h3 {
+    padding: 20px;
+    color: rgb(201, 63, 63);
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.my-information{
+    background-color: rgba(94, 47, 138, 0.65); 
+    margin: auto;
+    height: auto;
+    width: 80vw;
+    float: inherit;
+    justify-content: space-evenly;
+    display: flex;
+    transition: all 0.1s ease-in;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    
+    /*background-color: #12a6da;*/
+  
+    background: linear-gradient(142deg, rgba(53,50,255,1) 0%, rgba(50,204,236,1) 50%, rgba(247,225,50,1) 100%);
+    /* justify-content: space-around;
+    transition: all 0.1s ease-in; */
+}
+
+.my-icon img{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 20vw; 
+    place-content: center;
+    margin: 35% 0;
+
+}
+.my-info p{
+    align-items: center;
+    align-content: center;
+    font-size: 2rem;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    padding: 20px;
+    font-weight: 400;
+    text-indent: 50px;
+    text-align: justify;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    color: rgb(3, 51, 66);
+    overflow: hidden;
+
+}
+
+
+.main1{
+    max-width: 70vw;
+    height: auto;
+    background-color: rgba(36, 12, 60, 0.719);
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+    box-sizing: content-box;
+    border-radius: 20px;
+    /* justify-content: center; */
+}
